@@ -1,0 +1,93 @@
+body{    
+    background-color: #fdfdfd ;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding-top: 200px;
+}  
+p {
+    text-align: justify;
+    max-width: 950px;
+    margin: 0 auto 20px auto;
+    line-height: 1.5;
+
+}
+header {
+    background-color:#335163;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+} 
+
+.navbar {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 20px;
+    align:center;
+}
+
+.navbar h1 {
+    color: #edbabc;
+    margin: 0;
+    align-items:center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color:whitesmoke;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #edbabc;
+
+}
+h1 img {
+
+    float: CENTER;
+    width: 250px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+
+}
+h2 {
+    text-align: center;
+    margin-top: 35px;
+
+}
+.encabezado{
+    color:#ea3c64
+}
+
+h4{
+    text-align: center;
+    margin-top: 35px;
+    color: #0a0002;
+
+}
+    h5{
+    text-align:center;
+    color: #060002;
+}
+    
+        footer {
+            text-align: center;
+            margin-top: 35px;
+            font-size: 0.9em;
+            color: #0a0100;
+}
